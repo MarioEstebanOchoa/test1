@@ -2,6 +2,10 @@ add transaction=3.0.0 at the end of the buildout
 
 heroku create heroku-training-sandbox3 --buildpack https://github.com/MarioEstebanOchoa/test1.git
 
+heroku git:remote -a heroku-training-sandbox3
+
 heroku addons:add heroku-postgresql:hobby-dev
 
 heroku buildpacks:add --index 1 heroku-community/apt
+
+git push heroku master
