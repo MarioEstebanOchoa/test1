@@ -4,7 +4,8 @@
   "repository": "https://github.com/collective/training-sandbox",
   "logo": "http://www.coactivate.org/projects/plone-marketing/plone-logo-guidelines/plone-vertical-logo.png",
   "env": {
-    "BUILDPACK_URL": "https://github.com/MarioEstebanOchoa/test1"
+    "BUILDPACK_URL": ["https://github.com/heroku/heroku-buildpack-apt.git" ,
+"https://github.com/MarioEstebanOchoa/test1"]
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
