@@ -1,6 +1,6 @@
 add transaction=3.0.0 at the end of the buildout
 
-heroku create --buildpack https://github.com/MarioEstebanOchoa/test1.git
+heroku create heroku-training-sandbox3 --buildpack https://github.com/MarioEstebanOchoa/test1.git
 
 heroku addons:add heroku-postgresql:hobby-dev
 
